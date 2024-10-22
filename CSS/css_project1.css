@@ -1,0 +1,507 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    background-color: #2E073F;
+    color: white;
+    height: 130px;
+    width: 100%;
+    margin: 0;
+    padding: 1em 0 0 0;
+}
+.white-section{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2E073F, #987D9A, #BB9AB1, #987D9A, #2E073F);
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.nav-bar{
+    width: 100%;
+    height: 120px;
+    margin: auto;
+}
+.nav-logo{
+    width: 48%;
+    float: left;
+    margin: 0 1% 0 0;
+    padding: 16px;
+    color: white;
+}
+.nav-logo a{
+    color: white;
+    text-decoration: none;
+}
+.nav-item{
+    width: 48%;
+    margin: auto;
+    float: left;
+}
+.nav-item ul{
+    margin: auto;
+    padding: 6% 0 0 0;
+    height: 74px;
+    width: 100%;
+    float: left;
+}
+.nav-item li{
+    float: left;
+    list-style-type: none;
+    margin: 0 1% 0 1%;
+    padding: 16px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.nav-item li a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    background-color: #EECEB9;
+    border-radius: 10px;
+    color: #2E073F;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+.nav-item ul li ul.dropdown{
+    width: 100%;
+    background-color: #2E073F;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    color: white;
+}
+.banner{
+    margin: auto;
+    padding: 1%;
+}
+.artikel-container{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+.artikel1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Éclatant.png);
+    background-size: 350px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 1.5%;
+    margin-left: 13%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5%;
+    width: 25%;
+    border: 1px solid black;
+    float: left;
+    border-radius: 5px;
+}
+.artikel2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Fashion\ sale\ Banner\ Landscape.png);
+    background-size: 400px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 13%;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5%;
+    width: 25%;
+    border: 1px solid black;
+    float: left;
+    border-radius: 5px;
+}
+.produk-container{
+    width: 100%;
+    height: 270px;
+    margin: 1% 0 0 0;
+    padding: 1% 0 1% 0;
+    background-color: #EECEB9;
+    border-radius: 10px;
+}
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/clothing.jpg);
+    background-size: 250px;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/shoes.jpg);
+    background-size: 250px;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bags.jpg);
+    background-size: 250px;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card4{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/accsesories.jpg);
+    background-size: 250px;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card-title{
+    padding: 20%;
+}
+article{
+    padding: 1em;
+}
+.Artikel1{
+    background-color: #EECEB9;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0 1% 1% 1%;
+}
+.Artikel2{
+    background-color: #EECEB9;
+    height: 250px;
+    border-radius: 10px;
+    margin: 1% 1% 0 1%;
+}
+.p-box{
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+.box-container{
+    width: 80%;
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    padding: 1%;
+    background-color: #EECEB9;
+    border-radius: 10px;
+}
+.box-container1{
+    width: 80%;
+    height: 300px;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    padding: 1%;
+    background-color: #EECEB9;
+    border-radius: 10px;
+}
+.box-container2{
+    width: 80%;
+    height: 300px;
+    margin-top: 1%;
+    margin-left: 10%;
+    padding: 1%;
+    background-color: #EECEB9;
+    border-radius: 10px;
+}
+.box-container:hover, .box-container1:hover, .box-container2:hover, .artikel:hover{
+    background-color: #BB9AB1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card5{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Shirt-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card6{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Suit-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card7{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Dress-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card8{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Coat-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card9{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Heels-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card10{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Flat\ Shoe-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card11{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Mary\ Jane-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card12{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Loafers-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card13{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Sling\ bag-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card14{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Shoulder\ bag-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card15{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Hand\ bag-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card16{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Clutch-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card17{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Necklace-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card18{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Ring-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card19{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Bracelet-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card20{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Earrings-X.jpg);
+    background-size: 250px;
+    background-position: center;
+    margin: 1%;
+    width:21%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 1%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.card-button1{
+    text-align: center;
+    margin: 1% 2% 1% 2%;
+    width: 95%;
+    height: 61px;
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #EECEB9, #987D9A);
+}
+.card-button2{
+    text-align: center;
+    margin: 1% 2% 1% 2%;
+    width: 95%;
+    height: 61px;
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #987D9A, #EECEB9);
+}
+.card-button1:hover, .card-button2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 0 0 3px black;
+}
+.button-title{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    background-color: #EECEB9;
+    height: 100px;
+    width: 300px;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    float: left;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover, .card9:hover, .card10:hover,
+.card11:hover, .card12:hover, .card13:hover, .card14:hover, .card15:hover, .card16:hover, .card17:hover, .card18:hover, .card19:hover, .card20:hover, 
+.artikel1:hover, .artikel2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 0 0 3px white;
+}
+.news-container{
+    width: 80%;
+    height: 400px;
+    margin: auto;;
+}
+.artikel{
+    width: 42%;
+    height: 280px;
+    padding: 2%;
+    margin: 2%;
+    float: left;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #EECEB9;
+    color: black;
+}
+.A-container{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    padding: 1%;
+}
+
